@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.farooqkhalid.a31solid.AddNewUser">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+    android:id="@+id/newName"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:hint="First Name"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="25dp"
+
+    />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Last Name"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+
+        />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add"
+        android:layout_marginTop="140dp"
+
+        />
+
+</RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
